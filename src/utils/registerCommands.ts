@@ -1,5 +1,5 @@
 import { REST } from "@discordjs/rest";
-import { Routes } from "discord-api-types/v9";
+import { Routes } from "discord-api-types/v10";
 
 import { ExtendedClient } from "../interfaces/ExtendedClient";
 
@@ -20,7 +20,7 @@ export const registerCommands = async (
       logHandler.log("error", "Bot is not authenticated.");
       return false;
     }
-    const rest = new REST({ version: "9" }).setToken(bot.env.token);
+    const rest = new REST({ version: "10" }).setToken(bot.env.token);
     const commandData = bot.commands.map((command) => command.data.toJSON());
 
     if (!commandData.length) {

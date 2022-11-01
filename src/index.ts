@@ -83,4 +83,6 @@ import { validateEnv } from "./utils/validateEnv";
       });
     }
   });
+
+  await bot.login(bot.env.token);
 })();
