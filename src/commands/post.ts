@@ -69,7 +69,7 @@ export const post: Command = {
       postComponent,
     ]);
     const titleComponent = new TextInputBuilder()
-      .setCustomId("post-content")
+      .setCustomId("post-title")
       .setLabel("What is the title of your post?")
       .setRequired(true)
       .setMaxLength(256)
