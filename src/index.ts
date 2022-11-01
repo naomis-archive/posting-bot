@@ -66,6 +66,10 @@ import { validateEnv } from "./utils/validateEnv";
         name: interaction.user.tag,
         iconURL: interaction.user.displayAvatarURL(),
       });
+      embed.setFooter({
+        text: "Built with love by Naomi - https://donate.naomi.lgbt",
+        iconURL: "https://cdn.nhcarrigan.com/profile.png",
+      });
 
       const opts = roleId
         ? {

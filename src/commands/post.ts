@@ -73,7 +73,7 @@ export const post: Command = {
       .setLabel("What is the title of your post?")
       .setRequired(true)
       .setMaxLength(256)
-      .setStyle(TextInputStyle.Paragraph);
+      .setStyle(TextInputStyle.Short);
     const titleRow = new ActionRowBuilder<TextInputBuilder>().setComponents([
       titleComponent,
     ]);
