@@ -63,7 +63,7 @@ export const post: Command = {
       .setCustomId("post-content")
       .setLabel("What would you like to post?")
       .setRequired(true)
-      .setMaxLength(4096)
+      .setMaxLength(4000)
       .setStyle(TextInputStyle.Paragraph);
     const postRow = new ActionRowBuilder<TextInputBuilder>().setComponents([
       postComponent,
