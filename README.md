@@ -1,6 +1,6 @@
-# Project Name
+# Posting Bot
 
-Project Description
+Just a quick bot that lets your mod team post things like QOTDs.
 
 ## Live Version
 
