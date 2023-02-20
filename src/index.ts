@@ -67,7 +67,7 @@ import { validateEnv } from "./utils/validateEnv";
         iconURL: interaction.user.displayAvatarURL(),
       });
       embed.setFooter({
-        text: "Built with love by Naomi - https://donate.naomi.lgbt",
+        text: "Join our server: https://discord.gg/nhcarrigan",
         iconURL: "https://cdn.nhcarrigan.com/profile.png",
       });
 
