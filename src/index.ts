@@ -17,8 +17,7 @@ import { validateEnv } from "./utils/validateEnv";
   }) as ExtendedClient;
 
   bot.env = validateEnv();
-  // eslint-disable-next-line require-atomic-updates
-  bot.commands = await loadCommands(bot);
+  await loadCommands(bot);
 
   bot.on("ready", async () => {
     logHandler.log("debug", "Bot online!");
