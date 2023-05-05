@@ -1,3 +1,5 @@
+This project is archived.
+
 # Posting Bot
 
 Just a quick bot that lets your mod team post things like QOTDs.
